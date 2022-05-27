@@ -3,7 +3,7 @@
 function getMovie(){
    let title=document.getElementById('title').value;
 
-   const url=`http://www.omdbapi.com/?t=${title}&apikey=ef650941`
+   const url=`https://www.omdbapi.com/?t=${title}&apikey=ef650941`
 
 fetch(url).then(function(res){
     return res.json()
